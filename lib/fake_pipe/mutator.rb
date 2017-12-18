@@ -178,7 +178,7 @@ module FakePipe
 
     #Vat_number
     def mutate_vat_number(_)
-      Faker::Code.imei
+      Faker::Number.number(10) #=> "1968353479"
     end
 
     # Reopen class to define aliases on module_function
