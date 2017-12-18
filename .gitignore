@@ -10,3 +10,4 @@
 
 # SQL files don't belong in root
 /*.sql
+.idea/**/*

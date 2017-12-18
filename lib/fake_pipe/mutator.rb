@@ -176,6 +176,11 @@ module FakePipe
       SecureRandom.uuid
     end
 
+    #Vat_number
+    def mutate_vat_number(_)
+      Faker::Code.imei
+    end
+
     # Reopen class to define aliases on module_function
     class << self
       alias mutate_guid mutate_uuid
