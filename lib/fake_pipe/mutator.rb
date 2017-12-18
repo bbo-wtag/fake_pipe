@@ -94,6 +94,11 @@ module FakePipe
       Faker::Address.postcode
     end
 
+    # Faker::Address.zip_code
+    def mutate_address_zipcode(_)
+      Faker::Address.zip_code
+    end
+
     # Faker::Company.name
     def mutate_company_name(_)
       Faker::Company.name
